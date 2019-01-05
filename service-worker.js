@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Hack102/my-app/precache-manifest.3473def06bf7cae61ca0c815706cc544.js"
+  "/ReactJS-Tweaks/Hack102/my-app/precache-manifest.ea35ddf9d92e68842831bc70c7b36d27.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Hack102/my-app/index.html", {
+workbox.routing.registerNavigationRoute("/ReactJS-Tweaks/Hack102/my-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
